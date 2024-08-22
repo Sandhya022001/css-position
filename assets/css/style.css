@@ -1,0 +1,47 @@
+*{
+	padding:0;
+    margin:0;
+    box-sizing:border-box;
+	}
+	 h1{
+		padding:10px;
+	    background-color: black;
+		color:#fff;
+		font-size:22px;
+		font-weight:bold;
+		border:3px dotted green;
+		text-align:center;
+		top:0;
+	    position:sticky; 
+	
+		
+	}
+	
+
+  .demo{
+		height:100vh;
+		background-image:url(https://images6.alphacoders.com/680/680563.jpg);
+		background-repeat:no-repeat;
+		/* background-size:100% 100%;(width, height) */
+		background-size:cover;
+		/* background-position:top left; */
+		/* background-position:top right; */
+		/* background-position:bottom left; */
+		/* background-position:bottom right; */
+		background-position:center center;
+		background-attachment:fixed;
+	}
+	
+	.positions{
+		position:fixed;
+		bottom:20px;
+		right:20px;
+		text-decoration:none;
+		background-color:red;
+		color:#fff;
+		padding:14px 20px;
+		border-radius:50%;
+		font-weight:bold;
+		font-size:22px;
+		
+	}
